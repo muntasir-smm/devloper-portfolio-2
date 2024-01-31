@@ -108,17 +108,19 @@ main {
 /* About section */
 
 .about {
-  margin: 130px 0px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px;
   text-align: center;
 }
-
+section {
+  margin-top: 130px;
+}
 .section-title {
+  text-align: center;
   font-size: 35px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .section-description {
@@ -146,6 +148,24 @@ main {
 }
 
 /* What I do Style */
-.what-i-do {
-  margin-top: 130px;
+
+.skills-contsiner {
+  display: flex;
+  gap: 24px;
 }
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0px;
+}
+.skill-description {
+  color: #757575;
+}
+
+/* Resume Style */
