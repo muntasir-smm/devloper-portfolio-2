@@ -169,3 +169,31 @@ section {
 }
 
 /* Resume Style */
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-item {
+  margin: 20px 0px;
+}
+.resume .title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.resume .description {
+  color: #757575;
+  padding: 20px 0px;
+  /* border-bottom: 2px solid#757575; */
+}
+
+.resume-btn {
+  text-align: center;
+}
