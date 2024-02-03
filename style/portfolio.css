@@ -27,13 +27,13 @@
 }
 /* Header and navigation style */
 header {
-  margin: 20px 0px;
+  padding: 20px 0px;
   /* background-color: aquamarine; */
   /* height: 300px; */
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: #fff8f3;
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: left, bottom right;
